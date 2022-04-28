@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: rgb(46, 206, 227);
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    /*border: 2px solid red;*/
+}
+
+nav{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    padding: 0 25px;
+    height: 47px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    height: 58px;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a{
+    color: rgb(0, 84, 15);
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: rgb(4, 62, 85);
+    font-weight: bolder;
+}
+
+nav .email{
+    color: rgb(0, 84, 15);
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    padding: 18px;
+}
+
+nav .email:hover{
+    color: rgb(4, 62, 85);
+    font-weight: bolder;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    width: 30vw;
+    height: 27px;
+    border-radius: 7px;
+    margin: 0 6px 0 20px;
+    padding: 0 12px;
+}
+
+.search button{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.card{
+    /*background-color: blue;*/
+    margin: 37px auto;
+    max-width: 90vw;
+    font-family: 'Libre Bodoni', serif;
+
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    /*justify-content: center;*/
+    overflow: hidden;  /* This is done to hide any image that might exceed the area.. can be scroll also*/
+}
+
+.card-item{
+    box-shadow: 2px 6px 12px -2px rgba(5, 8, 11, 0.1);
+    display: inline flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    width: 15vw;
+    margin: 9px 18px;
+}
+
+.card-item:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+    transform: scale(1.1);
+    background-color: rgb(209, 229, 232);
+}
+
+.card h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: xx-large;
+}
+
+.offf{
+    color: rgb(40, 188, 188);
+}
+
+.ordernow{
+    color: rgb(30, 135, 100);
+    text-decoration: underline;
+}
+
+.container{
+    min-height: calc(100vh - 58px - 10vh);
+}
+
+.slider img{
+    width: 90vw;
+    margin: 12px auto 12px 4vw;
+    height: 320px;
+    overflow: hidden;
+}
+
+.card-item img{
+    width: 130px;
+    height: 160px;
+    /* border: 0.5px solid black; */
+    margin: 10px 15px;
+}
+
+.giant-label{
+    display: flex;
+    background-image: url("coronabg.jpg");
+    background-color: rgb(223, 223, 164);
+    size: 100vw;
+    height: 180px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 15px auto 20px 0vw;
+    overflow: hidden;
+    background-size: cover;
+    color: rgb(238, 197, 238);
+    font-family: 'Orelega One', cursive;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+
+.covidbanner{
+    size: 25px;
+}
+
+footer{
+    height: 10vh;
+    background-color: rgb(46, 206, 227);
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* FROM THIS AREA THE CSS DESIGNING IS FOR ABOUT PAGE */
+
+.header2 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85px;
+    background-color: rgb(13, 244, 240);
+    font-family: 'Poppins', sans-serif;
+    color: rgb(9, 123, 123);
+    font-size: 40px;
+    text-decoration: underline;
+}
